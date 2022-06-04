@@ -413,8 +413,8 @@ struct mjOption_ {                // physics options
   int iterations;                 // maximum number of main solver iterations
   int noslip_iterations;          // maximum number of noslip solver iterations
   int mpr_iterations;             // maximum number of MPR solver iterations
-  int disableflags;               // bit flags for disabling standard features
-  int enableflags;                // bit flags for enabling optional features
+  int disableflags;               // bit flags for disabling standard features (mjtDisableBit)
+  int enableflags;                // bit flags for enabling optional features (mjtEnableBit)
 };
 typedef struct mjOption_ mjOption;
 
